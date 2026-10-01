@@ -1,0 +1,19 @@
+{
+  "displayName": "drone_raven",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "drone_raven",
+  "hullMods": [],
+  "variantId": "drone_raven",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymauler",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg"
+      }
+    }
+  ]
+}

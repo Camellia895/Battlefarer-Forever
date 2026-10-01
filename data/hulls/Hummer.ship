@@ -1,0 +1,405 @@
+{
+  "bounds": [
+    -236,
+    -16.5,
+    -222.5,
+    -20,
+    -223,
+    -45.5,
+    -154,
+    -38.5,
+    -153.5,
+    -64.5,
+    -143.5,
+    -77.5,
+    -123.5,
+    -98.5,
+    -60.5,
+    -54,
+    -70,
+    -90.5,
+    -46.5,
+    -108.5,
+    -10.5,
+    -80,
+    38.5,
+    -81.5,
+    20.5,
+    -115.5,
+    36,
+    -132,
+    80,
+    -98,
+    132,
+    -83.5,
+    113.5,
+    -128,
+    136,
+    -134.5,
+    237.5,
+    -60,
+    230,
+    -18,
+    68,
+    -12,
+    68,
+    12,
+    230,
+    18,
+    237.5,
+    60,
+    136,
+    134.5,
+    113.5,
+    128,
+    132,
+    83.5,
+    80,
+    98,
+    36,
+    132,
+    20.5,
+    115.5,
+    38.5,
+    81.5,
+    -10.5,
+    80,
+    -46.5,
+    108.5,
+    -70,
+    90.5,
+    -60.5,
+    54,
+    -123.5,
+    98.5,
+    -143.5,
+    77.5,
+    -153.5,
+    64.5,
+    -154,
+    38.5,
+    -223,
+    45.5,
+    -222.5,
+    20,
+    -236,
+    16.5
+  ],
+  "builtInWeapons": {
+    "WS0011": "annihilatorpod",
+    "WS0012": "annihilatorpod",
+    "WS0013": "annihilatorpod",
+    "WS0014": "annihilatorpod"
+  },
+  "center": [
+    145,
+    239
+  ],
+  "collisionRadius": 256.672943,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 66.5,
+      "location": [
+        -220,
+        26.5
+      ],
+      "style": "MIDLINE",
+      "width": 28
+    },
+    {
+      "angle": -180,
+      "contrailSize": 28,
+      "length": 66.5,
+      "location": [
+        -220,
+        -26.5
+      ],
+      "style": "MIDLINE",
+      "width": 28
+    },
+    {
+      "angle": -180,
+      "contrailSize": 26,
+      "length": 63,
+      "location": [
+        -234,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 26
+    },
+    {
+      "angle": 180,
+      "contrailSize": 34,
+      "length": 96.5,
+      "location": [
+        -149,
+        49
+      ],
+      "style": "MIDLINE",
+      "width": 34
+    },
+    {
+      "angle": -180,
+      "contrailSize": 34,
+      "length": 96.5,
+      "location": [
+        -149,
+        -49
+      ],
+      "style": "MIDLINE",
+      "width": 34
+    },
+    {
+      "angle": 138.814072,
+      "contrailSize": 11.171431,
+      "length": 26.833744,
+      "location": [
+        -55,
+        95.5
+      ],
+      "style": "MIDLINE",
+      "width": 11.171431
+    },
+    {
+      "angle": -138.814072,
+      "contrailSize": 11.171431,
+      "length": 26.833744,
+      "location": [
+        -55,
+        -95.5
+      ],
+      "style": "MIDLINE",
+      "width": 11.171431
+    },
+    {
+      "angle": 138.814072,
+      "contrailSize": 11.171431,
+      "length": 26.833744,
+      "location": [
+        33.5,
+        123
+      ],
+      "style": "MIDLINE",
+      "width": 11.171431
+    },
+    {
+      "angle": -138.814072,
+      "contrailSize": 11.171431,
+      "length": 26.833744,
+      "location": [
+        33.5,
+        -123
+      ],
+      "style": "MIDLINE",
+      "width": 11.171431
+    },
+    {
+      "angle": 138.814072,
+      "contrailSize": 11.171431,
+      "length": 26.833744,
+      "location": [
+        126,
+        127.5
+      ],
+      "style": "MIDLINE",
+      "width": 11.171431
+    },
+    {
+      "angle": -138.814072,
+      "contrailSize": 11.171431,
+      "length": 26.833744,
+      "location": [
+        126,
+        -127.5
+      ],
+      "style": "MIDLINE",
+      "width": 11.171431
+    }
+  ],
+  "height": 478,
+  "hullId": "Hummer",
+  "hullName": "Hummer",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    0.5
+  ],
+  "shieldRadius": 252.800323,
+  "spriteName": "graphics/ships/Hummer.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -188.5,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -188.5,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -107.5,
+        67
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0004",
+      "locations": [
+        -107.5,
+        -67
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0005",
+      "locations": [
+        -21.5,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0006",
+      "locations": [
+        -21.5,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0007",
+      "locations": [
+        62.5,
+        90.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0008",
+      "locations": [
+        62.5,
+        -90.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0009",
+      "locations": [
+        155.5,
+        96.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0010",
+      "locations": [
+        155.5,
+        -96.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 23.888355,
+      "id": "WS0011",
+      "locations": [
+        27,
+        4.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 23.888355,
+      "id": "WS0012",
+      "locations": [
+        27,
+        -4.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 26.481039,
+      "id": "WS0013",
+      "locations": [
+        60,
+        14.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 26.481039,
+      "id": "WS0014",
+      "locations": [
+        60,
+        -14.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 290
+}

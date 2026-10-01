@@ -1,0 +1,308 @@
+{
+  "bounds": [
+    -223.5,
+    -43,
+    -249,
+    -38,
+    -255,
+    -58.5,
+    -176,
+    -96,
+    -175,
+    -133,
+    -101,
+    -171,
+    -9,
+    -114,
+    -16.5,
+    -79.5,
+    208,
+    -55.5,
+    251,
+    -39.5,
+    252,
+    -10.5,
+    227,
+    -10,
+    227,
+    10,
+    252,
+    10.5,
+    251,
+    39.5,
+    208,
+    55.5,
+    -16.5,
+    79.5,
+    -9,
+    114,
+    -101,
+    171,
+    -175,
+    133,
+    -176,
+    96,
+    -255,
+    58.5,
+    -249,
+    38,
+    -223.5,
+    43
+  ],
+  "center": [
+    167,
+    256.5
+  ],
+  "collisionRadius": 290.876678,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 26,
+      "length": 150.5,
+      "location": [
+        -199.5,
+        31.5
+      ],
+      "style": "MIDLINE",
+      "width": 26
+    },
+    {
+      "angle": -180,
+      "contrailSize": 26,
+      "length": 150.5,
+      "location": [
+        -199.5,
+        -31.5
+      ],
+      "style": "MIDLINE",
+      "width": 26
+    },
+    {
+      "angle": -154.707977,
+      "contrailSize": 9.227982,
+      "length": 45.729759,
+      "location": [
+        -171.5,
+        102
+      ],
+      "style": "MIDLINE",
+      "width": 9.227982
+    },
+    {
+      "angle": 154.707977,
+      "contrailSize": 9.227982,
+      "length": 45.729759,
+      "location": [
+        -171.5,
+        -102
+      ],
+      "style": "MIDLINE",
+      "width": 9.227982
+    },
+    {
+      "angle": -156.501434,
+      "contrailSize": 7.376432,
+      "length": 22.866941,
+      "location": [
+        -153,
+        91.5
+      ],
+      "style": "MIDLINE",
+      "width": 7.376432
+    },
+    {
+      "angle": 156.501434,
+      "contrailSize": 7.376432,
+      "length": 22.866941,
+      "location": [
+        -153,
+        -91.5
+      ],
+      "style": "MIDLINE",
+      "width": 7.376432
+    }
+  ],
+  "height": 513,
+  "hullId": "Anamar",
+  "hullName": "Anamar",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 287.230316,
+  "spriteName": "graphics/ships/Anamar.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 74.248825,
+      "arc": 226.69165,
+      "id": "WS0001",
+      "locations": [
+        -71,
+        36.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -74.248825,
+      "arc": 226.69165,
+      "id": "WS0002",
+      "locations": [
+        -71,
+        -36.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -98,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0004",
+      "locations": [
+        -98,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        33.5,
+        43.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        33.5,
+        -43.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0007",
+      "locations": [
+        62.5,
+        37.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0008",
+      "locations": [
+        62.5,
+        -37.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0009",
+      "locations": [
+        95.5,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0010",
+      "locations": [
+        95.5,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0011",
+      "locations": [
+        -112.5,
+        128
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0012",
+      "locations": [
+        -112.5,
+        -128
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 149.237274,
+      "arc": 180,
+      "id": "WS0013",
+      "locations": [
+        -119.5,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -149.237274,
+      "arc": 180,
+      "id": "WS0014",
+      "locations": [
+        -119.5,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 333
+}

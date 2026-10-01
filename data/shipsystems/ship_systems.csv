@@ -1,0 +1,4 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,icon
+Raven Drones,drone_raven,,,,,,,30,,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Energy Covette Support Drones,drone_energycorvette,,,,,,,8,,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Wrecker Drones,drone_wrecker,,,,,,,13,,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png

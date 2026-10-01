@@ -1,0 +1,28 @@
+{
+	"id":"dualhellbore",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":600,
+	"turretSprite":"graphics/weapons/dual_hellbore_cannon_turret_base.png",
+	"turretGunSprite":"graphics/weapons/dual_hellbore_cannon_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/dual_hellbore_cannon_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/dual_hellbore_cannon_hardpoint_recoil.png",	
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[35, -8.5, 35, 8.5],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[50, -8.5, 50, 8.5],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":65.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":35.0,
+					   "particleDuration":0.75,
+					   "particleCount":50,
+					   "particleColor":[255,70,50,245]},
+	"projectileSpecId":"hellbore_shot",  # projectile that will be fired
+	"fireSoundTwo":"hellbore_fire",
+}

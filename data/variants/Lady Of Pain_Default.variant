@@ -1,0 +1,61 @@
+{
+  "displayName": "Default",
+  "fluxCapacitors": 41,
+  "fluxVents": 40,
+  "hullId": "Lady Of Pain",
+  "hullMods": [
+    "advancedshieldemitter",
+    "hardenedshieldemitter",
+    "fluxcoil",
+    "pointdefenseai"
+  ],
+  "variantId": "Lady Of Pain_Default",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance",
+        "WS0010": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "bluelight",
+        "WS0013": "bluelight",
+        "WS0014": "bluelight",
+        "WS0015": "bluelight"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gravitonbeam",
+        "WS0003": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "autopulse",
+        "WS0005": "autopulse",
+        "WS0006": "autopulse",
+        "WS0007": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0011": "lrpdlaser",
+        "WS0016": "guardian"
+      }
+    }
+  ]
+}

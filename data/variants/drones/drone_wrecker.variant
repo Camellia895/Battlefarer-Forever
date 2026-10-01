@@ -1,0 +1,17 @@
+{
+  "displayName": "drone_wrecker",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "drone_wrecker",
+  "hullMods": [],
+  "variantId": "drone_wrecker",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "destructor"
+      }
+    }
+  ]
+}

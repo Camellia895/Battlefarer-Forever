@@ -1,0 +1,85 @@
+{
+  "bounds": [
+    -16,
+    -5.5,
+    -11,
+    -7,
+    -6,
+    -19,
+    6,
+    -19,
+    9,
+    -5.5,
+    15,
+    -2.5,
+    15,
+    2.5,
+    9,
+    5.5,
+    6,
+    19,
+    -6,
+    19,
+    -11,
+    7,
+    -16,
+    5.5
+  ],
+  "center": [
+    19,
+    15
+  ],
+  "collisionRadius": 21.400934,
+  "engineSlots": [],
+  "height": 30,
+  "hullId": "drone_raven",
+  "hullName": "Raven Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/ships/drones/drone_raven.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 53.130104,
+      "id": "WS0002",
+      "locations": [
+        13.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 53.130104,
+      "id": "WS0003",
+      "locations": [
+        5.5,
+        -7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 53.130104,
+      "id": "WS0004",
+      "locations": [
+        5.5,
+        7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 38
+}

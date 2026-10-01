@@ -1,0 +1,52 @@
+{
+  "displayName": "Default",
+  "fluxCapacitors": 28,
+  "fluxVents": 25,
+  "hullId": "Anamar",
+  "hullMods": [
+    "augmentedengines",
+    "pointdefenseai",
+    "fluxcoil"
+  ],
+  "variantId": "Anamar_Default",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavymauler",
+        "WS0006": "heavymauler",
+        "WS0007": "heavymauler",
+        "WS0008": "heavymauler",
+        "WS0009": "heavymauler",
+        "WS0010": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightneedler",
+        "WS0012": "lightneedler",
+        "WS0013": "lightneedler",
+        "WS0014": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "chaingun"
+      }
+    }
+  ]
+}

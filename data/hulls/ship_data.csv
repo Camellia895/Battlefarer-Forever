@@ -1,0 +1,28 @@
+name,id,designation,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,hangar,base value,number
+The Hive,Hive,Energy Capital,drone_energycorvette,18,15000,200,50000,,1500,300,50,25,10,25,15,2000,FRONT,,250,0.75,0.5,,,450,500,450,650,5,250,0,575000,12346
+Heliotrix,Heliotrix,Capital Ship,burndrive,20,30000,1150,45000,,1000,300,15,10,5,10,10,2500,FRONT,,270,0.6,0.6,0,0,350,500,500,500,7,250,0,752500,12345
+Absit Invidia,Absit Invidia,Heavy Freighter,drone_raven,17,10000,100,10000,,400,220,45,10,5,10,10,3000,FRONT,,290,0.6,0.9,0,0,450,550,650,750,4,300,6,500000,12347
+Lady Of Pain,Lady Of Pain,Energy Capital,highenergyfocus,20,25000,300,50000,,1200,400,20,15,20,10,10,2500,FRONT,,300,0.4,0.75,0,0,450,550,400,400,4,250,5,756000,12349
+Regal Basilisk,Regal Basilisk,Heavy Carrier,drone_pd_x2,15,15000,500,20000,,550,225,30,15,35,15,5,2000,FRONT,,250,0.25,0.75,,,450,550,350,250,5,350,25,500000,9001
+Wreckerbee,Wreckerbee,Demolition Drone,drone_wrecker,16,15000,400,15000,,600,75,40,25,30,25,20,3500,FRONT,,275,0.5,0.7,,,300,400,500,500,5,250,5,275000,99999
+Hummer,Hummer,Super Freighter,maneuveringjets,15,8500,275,12000,,350,250,45,50,35,8,6,3000,OMNI,,275,0.6,0.65,,,350,450,800,1500,4,250,3,200000,909866
+Sparrow,Sparrow,Pulse Support Capital,burndrive,15,18000,1500,25000,,1250,300,35,25,30,10,7,3500,PHASE,phasecloak,90,,,0.15,0.01,450,1000,300,800,4,250,25,150000,2646342
+Iris,Iris,Absolution Class Capital,highenergyfocus,14,12500,250,30000,,560,300,40,35,25,9,4,3500,FRONT,,275,0.5,0.5,,,425,650,500,650,4,250,4,125000,6567686
+Anamar,Anamar,PD Capital,maneuveringjets,18,15000,500,20000,,1000,300,60,45,70,8,9,2500,FRONT,,320,0.4,1.4,,,300,450,600,750,14,250,0,125000,69
+Netlon Shoop,Netlon Shoop,Energy Capital,highenergyfocus,13,25000,300,22500,,1000,300,60,20,35,33,5,3000,OMNI,,150,0.3,0.8,,,325,400,250,100,3.7,250,3,140000,42
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Raven Drone,drone_raven,,,,100,25,250,,50,,100,100,200,125,360,5,NONE,,,,,,,,,,,,,,,1
+Energy Corvette Support Drone,drone_energycorvette,,,,2500,100,2500,,200,,75,45,60,50,80,5,OMNI,,270,0.5,1,0,0,,,,,,,,,1
+Wrecker Drone,drone_wrecker,,,,250,100,500,,100,,250,300,350,80,100,25,FRONT,,360,0.5,1,,,,,,,,,,,1

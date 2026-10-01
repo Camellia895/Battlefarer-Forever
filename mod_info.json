@@ -1,0 +1,12 @@
+{
+  "id":"Battlefarer",
+	"name":"Battlefarer Forever",
+	"version":"0.3",
+	"description":"Adds 2 whole new factions, along with some custom ships for you to fight",
+	"gameVersion":"0.98a-RC8",
+	"author":"Sproginator",
+	"totalConversion":"false",
+	"replace":[
+		
+	],
+}

@@ -1,0 +1,43 @@
+{
+  "displayName": "Default",
+  "fluxCapacitors": 11,
+  "fluxVents": 12,
+  "hullId": "Wreckerbee",
+  "hullMods": [
+    "turretgyros",
+    "augmentedengines",
+    "armoredweapons"
+  ],
+  "variantId": "Wreckerbee_Default",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tractorbeam",
+        "WS0004": "tractorbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "destructor",
+        "WS0006": "destructor"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

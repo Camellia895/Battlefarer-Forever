@@ -1,0 +1,50 @@
+{
+  "displayName": "Default",
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "hullId": "Hive",
+  "hullMods": [],
+  "variantId": "Hive_Default",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 16": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "autopulse",
+        "WS 2": "autopulse",
+        "WS 3": "autopulse",
+        "WS 4": "autopulse",
+        "WS 5": "autopulse",
+        "WS 6": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 10": "autopulse",
+        "WS 7": "autopulse",
+        "WS 8": "autopulse",
+        "WS 9": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 11": "heavyburst",
+        "WS 12": "heavyburst",
+        "WS 13": "heavyburst",
+        "WS 14": "irpulse",
+        "WS 15": "irpulse"
+      }
+    }
+  ]
+}

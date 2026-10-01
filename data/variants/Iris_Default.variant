@@ -1,0 +1,63 @@
+{
+  "displayName": "Default",
+  "fluxCapacitors": 15,
+  "fluxVents": 16,
+  "hullId": "Iris",
+  "hullMods": [
+    "advancedshieldemitter",
+    "fluxcoil",
+    "hardenedshieldemitter"
+  ],
+  "variantId": "Iris_Default",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "seeingeye"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "chaingun",
+        "WS0017": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "phasebeam",
+        "WS0004": "phasebeam",
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam",
+        "WS0018": "miniseeingeye",
+        "WS0019": "miniseeingeye"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sabotpod",
+        "WS0009": "sabotpod",
+        "WS0010": "sabotpod",
+        "WS0011": "sabotpod",
+        "WS0012": "sabotpod",
+        "WS0013": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyburst",
+        "WS0002": "heavyburst",
+        "WS0014": "dualflak",
+        "WS0015": "dualflak"
+      }
+    }
+  ]
+}

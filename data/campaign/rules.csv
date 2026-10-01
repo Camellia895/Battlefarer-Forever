@@ -1,0 +1,103 @@
+id,trigger,conditions,script,text,options,notes
+# Battlefarer Forever: new game start option (replaces the old CharacterCreationPlugin, which the 0.98a API removed),,,,,,
+bfngcStart,AddNewGameChoices,,"SetTooltip bfngcStart ""You served the Battlefarer, an enigmatic fleet of unique capital ships. One of their vessels is yours to command.\n\nThe whole Sector will be hostile to you, but Battlefarer convoys and their Tradestation will trade with you.""",,6:bfngcStart:Battlefarer - command one of the unique ships,
+bfngcStartPicked,NewGameOptionSelected,$option == bfngcStart,FireAll BattlefarerShipOptions,Choose one of the unique Battlefarer vessels:,,
+bfPick0,BattlefarerShipOptions,,"SetTooltip bfPick0 ""Energy capital: ten autopulse lasers and a hardpoint tachyon lance behind a narrow front shield. Light point defense.""",,0:bfPick0:Hive,
+bfPick0Picked,NewGameOptionSelected,$option == bfPick0,"NGCAddShip Hive_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick1,BattlefarerShipOptions,,"SetTooltip bfPick1 ""Slow, heavily armored battlecruiser built around a burn drive system.""",,1:bfPick1:Heliotrix,
+bfPick1Picked,NewGameOptionSelected,$option == bfPick1,"NGCAddShip Heliotrix_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick2,BattlefarerShipOptions,,"SetTooltip bfPick2 ""Heavy freighter refit escorted by raven drones.""",,2:bfPick2:Absit Invidia,
+bfPick2Picked,NewGameOptionSelected,$option == bfPick2,"NGCAddShip Absit Invidia_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick3,BattlefarerShipOptions,,"SetTooltip bfPick3 ""Energy capital built around a high energy focus system.""",,3:bfPick3:Lady Of Pain,
+bfPick3Picked,NewGameOptionSelected,$option == bfPick3,"NGCAddShip Lady Of Pain_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick4,BattlefarerShipOptions,,"SetTooltip bfPick4 ""Heavy carrier escorted by swarms of point-defense drones.""",,4:bfPick4:Regal Basilisk,
+bfPick4Picked,NewGameOptionSelected,$option == bfPick4,"NGCAddShip Regal Basilisk_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick5,BattlefarerShipOptions,,"SetTooltip bfPick5 ""Demolition drone hive launching waves of wrecker drones.""",,5:bfPick5:Wreckerbee,
+bfPick5Picked,NewGameOptionSelected,$option == bfPick5,"NGCAddShip Wreckerbee_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick6,BattlefarerShipOptions,,"SetTooltip bfPick6 ""Super freighter fitted with maneuvering jets.""",,6:bfPick6:Hummer,
+bfPick6Picked,NewGameOptionSelected,$option == bfPick6,"NGCAddShip Hummer_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick7,BattlefarerShipOptions,,"SetTooltip bfPick7 ""Phase capital with heavy armor and a shallow shield.""",,7:bfPick7:Sparrow,
+bfPick7Picked,NewGameOptionSelected,$option == bfPick7,"NGCAddShip Sparrow_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick8,BattlefarerShipOptions,,"SetTooltip bfPick8 ""Absolution class capital built around a high energy focus system.""",,8:bfPick8:Iris,
+bfPick8Picked,NewGameOptionSelected,$option == bfPick8,"NGCAddShip Iris_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick9,BattlefarerShipOptions,,"SetTooltip bfPick9 ""Fast point-defense capital fitted with maneuvering jets.""",,9:bfPick9:Anamar,
+bfPick9Picked,NewGameOptionSelected,$option == bfPick9,"NGCAddShip Anamar_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,
+bfPick10,BattlefarerShipOptions,,"SetTooltip bfPick10 ""Energy capital built around a high energy focus system.""",,10:bfPick10:Netlon Shoop,
+bfPick10Picked,NewGameOptionSelected,$option == bfPick10,"NGCAddShip Netlon Shoop_Default
+NGCAddCredits 10000
+NGCAddCharacterPoints 3
+NGCAddCargo RESOURCES supplies 20
+NGCAddCargo RESOURCES fuel 20
+NGCAddCargo RESOURCES crew 20
+NGCAddCargo RESOURCES marines 10
+NGCDone",,,

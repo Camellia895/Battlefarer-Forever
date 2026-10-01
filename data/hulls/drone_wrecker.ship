@@ -1,0 +1,53 @@
+{
+  "bounds": [
+    -14.5,
+    -4,
+    -8.5,
+    -10,
+    8.5,
+    -10,
+    14.5,
+    -3,
+    14.5,
+    3,
+    8.5,
+    10,
+    -8.5,
+    10,
+    -14.5,
+    4
+  ],
+  "center": [
+    10,
+    14.5
+  ],
+  "collisionRadius": 16.224981,
+  "engineSlots": [],
+  "height": 29,
+  "hullId": "drone_wrecker",
+  "hullName": "drone_wrecker",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 15.206906,
+  "spriteName": "graphics/ships/drones/drone_wrecker.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 20
+}

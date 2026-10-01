@@ -1,0 +1,43 @@
+Battlefarer Forever changelog
+=============================
+
+0.3 (2026-10-02)
+----------------
+Ported from Starsector 0.35a to 0.98a-RC8.
+
+Scripts
+- battlefarerGen: rebuilt the Tradestation with the modern API
+  (addCustomEntity + market with open/black/storage submarkets, stocked with the
+  original cargo: crew, marines, supplies, fuel and the original weapon list).
+- All spawn points now extend a mod-local copy of core's BaseSpawnPoint
+  (core no longer uses the pattern; the mod ships its own same-named file).
+- Fleets are created with Global.getFactory().createEmptyFleet + addFleetMember
+  (SectorAPI.createFleet was removed); mothballed convoy ships use variant ids
+  (hound_Standard, hermes_Standard, lasher_Standard, brawler_Assault,
+  vigilance_Standard, dram_Light, wolf_CS; wing: wasp_wing).
+- Removed data.scripts.plugins.CharacterCreationPluginImpl (the
+  CharacterCreationPlugin API no longer exists). The "Battlefarer ships" start
+  it provided is re-created as a rules.csv new-game option: pick any of the 11
+  unique ships, 10000 credits, 3 character points, basic supplies.
+- Removed data.scripts.world.corvus.UniquesSpawnPoint (referenced a faction
+  "uniques" that no longer exists; class was unused).
+- Weapon effect emitters (BluelightEmitter, MassCannonEmitter, SeeingEyeEmitter)
+  implement the CombatEntityAPI methods added since 0.35a.
+
+Data
+- faction files: added keys 0.98a requires or expects (logo, crest,
+  displayNameWithArticle, displayNameIsOrAre) and knownShips/knownWeapons so
+  markets and doctrine can actually use the faction's ships and weapons.
+  fleetCompositions blocks are kept as historical data (no longer read).
+- weapons: replaced sound ids that no longer exist in core
+  (beam_light/medium_intro/loop -> laser_intro / high_intensity_laser_loop,
+  gun_superheavy_1 -> hellbore_fire, beam_heavy_burst_1 -> targeting_laser_burst).
+- mod_info.json: gameVersion 0.98a-RC8, version 0.3.
+- ship_data/weapon_data/ship_systems/descriptions CSVs: unchanged (0.98a reads
+  columns by header name; missing columns are safe defaults).
+
+Verified
+- janino batch compile of all 16 scripts: 16/16 OK.
+- New game smoke test: loads to main menu, creates a campaign save with the
+  Tradestation (with market), all 9 unique fleets and the supply convoy spawned
+  in Corvus; no data.scripts stack frames in the log.

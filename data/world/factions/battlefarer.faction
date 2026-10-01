@@ -1,0 +1,71 @@
+{
+	id:"battlefarer",
+	"color":[134,214,55,255],
+	"displayName":"Battlefarer",
+	"displayNameWithArticle":"the Battlefarer",
+	"displayNameIsOrAre":"are",
+	"logo":"graphics/factions/neutral_traders.png",
+	"crest":"graphics/factions/crest_neutral_traders.png",
+	"shipNamePrefix":"Unit",	
+	"shipNameSources":{
+		"ROMAN":2,
+		"GREEK":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"old english":1,
+	},		
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_hegemony01.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_hegemony03.png",
+		],
+	},
+	"knownShips":{
+		"tags":["battlefarer"],
+		"hulls":["Hive", "Heliotrix", "Absit Invidia", "Lady Of Pain", "Regal Basilisk", "Wreckerbee", "Hummer", "Sparrow", "Iris", "Anamar", "Netlon Shoop"],
+	},
+	"knownWeapons":{
+		"tags":["battlefarer"],
+		"weapons":["bluelight", "tractorbeam", "destructor", "beam_weapon", "dualhellbore", "seeingeye", "miniseeingeye", "Mass Cannon", "seeingeye_emitter", "masscannon_emitter"],
+	},
+	"fleetCompositions":{
+
+		"battlefarersupplyFleet":{
+            "displayName":"A Friendly Supply Fleet",
+            "maxFleetPoints":91,
+            "daysWorthOfSupplies":[30, 50],
+            "lyWorthOfFuel":[40, 60],
+            "extraCrewPercent":[50, 70],
+            "marinesPercent":[10, 20],
+            "ships":{
+				"atlas_Standard":[1, 2],
+				"mule_Standard":[1, 4],
+				"tarsus_Standard":[2, 6],
+				
+				
+            },
+        },
+	},	
+	"traits":{
+		"admiral":{
+			
+		},
+		"captain":{
+			"cowardly":1,
+			"cautious":1,
+			"steady":1,
+			"aggressive":1,
+			"suicidal":1,
+			"fearless":1,
+		},
+	},
+	"dialogue":{
+		"greetingFriendly":"1",
+		"greetingNeutral":"2",
+		"greetingHostileAggressive":"3",
+		"greetingHostileTimid":"4",
+	}	
+},
