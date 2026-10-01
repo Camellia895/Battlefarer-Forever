@@ -39,4 +39,5 @@ See `changelog.txt` for the full list.
 
 - <img width="264" height="408" alt="image" src="https://github.com/user-attachments/assets/7e1aab65-3187-46f1-8838-ad4a0681ce0c" />
 <img width="1369" height="800" alt="image" src="https://github.com/user-attachments/assets/8d25cc9c-e16b-4424-8520-7107cdd415fb" />
-<img width="264" height="408" alt="image" src="https://github.com/user-attachments/assets/650272ff-74c5-483d-900b-cfdbcdbce438" />
+<img width="1362" height="798" alt="image" src="https://github.com/user-attachments/assets/978ee267-33fd-487c-af8b-8873f4dff8dd" />
+
