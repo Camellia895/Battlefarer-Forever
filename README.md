@@ -1,4 +1,4 @@
-# Battlefarer Forever
+# Battlefarer Forever https://fractalsoftworks.com/forum/index.php?topic=34274.0
 
 A Starsector mod by **Sproginator** (original, for Starsector 0.35a), ported to
 **Starsector 0.98a-RC8**.
